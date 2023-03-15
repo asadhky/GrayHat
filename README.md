@@ -1,2 +1,0 @@
-# GrayHat
-Technical Screen
