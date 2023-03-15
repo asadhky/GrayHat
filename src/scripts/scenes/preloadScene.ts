@@ -16,7 +16,7 @@ export default class PreloadScene extends Phaser.Scene {
     })
 
     // 背景
-    this.load.image('background-clouds', 'assets/images/clouds.png')
+    this.load.image('background-clouds', 'assets/images/cloudd.png')
 
     // 地图数据
     this.load.tilemapTiledJSON('map', 'assets/maps/super-mario.json')

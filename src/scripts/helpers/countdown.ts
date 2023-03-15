@@ -15,7 +15,7 @@ export default class CountDown extends Phaser.Events.EventEmitter {
     this.timedEvent = this.scene.time.addEvent({
       delay: this.delay,
       callback: () => {
-        this.current--
+        this.current++
         this.emit('interval', this.current)
         if (this.current === 0) {
           this.timedEvent.remove()

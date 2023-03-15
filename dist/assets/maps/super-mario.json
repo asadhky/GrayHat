@@ -974,7 +974,7 @@
                         {
                          "name":"name",
                          "type":"string",
-                         "value":"goomba"
+                         "value":"turtle"
                         }]
                 }, 
                 {
@@ -983,7 +983,7 @@
                         {
                          "name":"name",
                          "type":"string",
-                         "value":"turtle"
+                         "value":"goomba"
                         }]
                 }, 
                 {

@@ -49,9 +49,9 @@ export class EnterPipe implements Power {
 
     const propMap = {
       down: ['y', 1],
-      up: ['y', -1],
+      up: ['y', 1],
+      left: ['y', 1],
       right: ['x', 1],
-      left: ['x', -1],
     }
     const [prop, value] = propMap[direction]
 

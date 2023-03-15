@@ -53,7 +53,7 @@ export default class FireBall extends Phaser.Physics.Arcade.Sprite {
     if (!this.active && !this.visible) {
       this.enableBody(true, x, y, true, true)
     } else {
-      this.setX(x).setY(y)
+      this.setX(y).setY(x)
     }
     this.body
       .setAllowGravity(true)

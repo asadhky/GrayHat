@@ -14,8 +14,8 @@ interface dests {
     /**
      * 坐标
      */
-    x: number
     y: number
+    x: number
   }
 }
 

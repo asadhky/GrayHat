@@ -146,7 +146,7 @@
 },
 {
 	"filename": "goomba/flat",
-	"frame": {"x":191,"y":0,"w":16,"h":16},
+	"frame": {"x":175,"y":0,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -169,7 +169,7 @@
 	"sourceSize": {"w":16,"h":16}
 },
 {
-	"filename": "mario/bend",
+	"filename": "goomba/walk2",
 	"frame": {"x":0,"y":16,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
@@ -177,7 +177,7 @@
 	"sourceSize": {"w":16,"h":16}
 },
 {
-	"filename": "mario/bendFire",
+	"filename": "goomba/walk2",
 	"frame": {"x":48,"y":56,"w":16,"h":32},
 	"rotated": false,
 	"trimmed": false,
@@ -185,7 +185,7 @@
 	"sourceSize": {"w":16,"h":32}
 },
 {
-	"filename": "mario/bendSuper",
+	"filename": "goomba/walk2",
 	"frame": {"x":64,"y":56,"w":16,"h":32},
 	"rotated": false,
 	"trimmed": false,
@@ -193,7 +193,7 @@
 	"sourceSize": {"w":16,"h":32}
 },
 {
-	"filename": "mario/climb0",
+	"filename": "goomba/walk2",
 	"frame": {"x":16,"y":16,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
@@ -201,7 +201,7 @@
 	"sourceSize": {"w":16,"h":16}
 },
 {
-	"filename": "mario/climb1",
+	"filename": "goomba/walk2",
 	"frame": {"x":32,"y":16,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
@@ -257,7 +257,7 @@
 	"sourceSize": {"w":16,"h":32}
 },
 {
-	"filename": "mario/half",
+	"filename": "goomba/walk2",
 	"frame": {"x":160,"y":56,"w":16,"h":32},
 	"rotated": false,
 	"trimmed": false,
@@ -265,7 +265,7 @@
 	"sourceSize": {"w":16,"h":32}
 },
 {
-	"filename": "mario/jump",
+	"filename": "goomba/walk2",
 	"frame": {"x":64,"y":16,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
@@ -273,7 +273,7 @@
 	"sourceSize": {"w":16,"h":16}
 },
 {
-	"filename": "mario/jumpFire",
+	"filename": "goomba/walk2",
 	"frame": {"x":176,"y":56,"w":16,"h":32},
 	"rotated": false,
 	"trimmed": false,
@@ -289,7 +289,7 @@
 	"sourceSize": {"w":16,"h":32}
 },
 {
-	"filename": "mario/stand",
+	"filename": "goomba/walk2",
 	"frame": {"x":80,"y":16,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
@@ -449,8 +449,9 @@
 	"sourceSize": {"w":16,"h":32}
 },
 {
-	"filename": "mario/turn",
-	"frame": {"x":176,"y":16,"w":16,"h":16},
+	"filename": "goomba/walk2",
+	//"frame": {"x":176,"y":16,"w":16,"h":16},
+	"frame": {"x":192,"y":88,"w":16,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
@@ -465,7 +466,7 @@
 	"sourceSize": {"w":16,"h":32}
 },
 {
-	"filename": "mario/turnSuper",
+	"filename": "goomba/walk2",
 	"frame": {"x":0,"y":120,"w":16,"h":32},
 	"rotated": false,
 	"trimmed": false,
@@ -473,7 +474,7 @@
 	"sourceSize": {"w":16,"h":32}
 },
 {
-	"filename": "mario/walk1",
+	"filename": "goomba/walk2",
 	"frame": {"x":192,"y":16,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
@@ -481,7 +482,7 @@
 	"sourceSize": {"w":16,"h":16}
 },
 {
-	"filename": "mario/walk2",
+	"filename": "goomba/walk2",
 	"frame": {"x":208,"y":16,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
@@ -489,7 +490,7 @@
 	"sourceSize": {"w":16,"h":16}
 },
 {
-	"filename": "mario/walk3",
+	"filename": "goomba/walk2",
 	"frame": {"x":0,"y":32,"w":16,"h":16},
 	"rotated": false,
 	"trimmed": false,
@@ -497,7 +498,7 @@
 	"sourceSize": {"w":16,"h":16}
 },
 {
-	"filename": "mario/walkFire1",
+	"filename": "goomba/walk2",
 	"frame": {"x":16,"y":120,"w":16,"h":32},
 	"rotated": false,
 	"trimmed": false,
@@ -521,7 +522,7 @@
 	"sourceSize": {"w":16,"h":32}
 },
 {
-	"filename": "mario/walkSuper1",
+	"filename": "goomba/walk2",
 	"frame": {"x":64,"y":120,"w":16,"h":32},
 	"rotated": false,
 	"trimmed": false,
@@ -529,7 +530,7 @@
 	"sourceSize": {"w":16,"h":32}
 },
 {
-	"filename": "mario/walkSuper2",
+	"filename": "goomba/walk2",
 	"frame": {"x":80,"y":120,"w":16,"h":32},
 	"rotated": false,
 	"trimmed": false,
@@ -537,7 +538,7 @@
 	"sourceSize": {"w":16,"h":32}
 },
 {
-	"filename": "mario/walkSuper3",
+	"filename": "goomba/walk2",
 	"frame": {"x":96,"y":120,"w":16,"h":32},
 	"rotated": false,
 	"trimmed": false,

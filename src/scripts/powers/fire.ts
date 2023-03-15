@@ -91,7 +91,7 @@ export class Fire implements Power {
    * @param player 玩家（火球创建依赖玩家的一些参数）
    */
   private createFireBall(player: Player): FireBall | undefined {
-    const direction = player.flipX ? -1 : 1
+    const direction = player.flipX ? 1 : -1
 
     if (this.fireBallGroup.getLength() < this.maxBallNums) {
       const fireBall = new FireBall(player.scene, 'atlas')

@@ -7,10 +7,10 @@ const DEFAULT_HEIGHT = 240
 
 const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
-  backgroundColor: '#6888ff',
+  backgroundColor: '#000000',
   render: {
     pixelArt: true,
-    roundPixels: true,
+    roundPixels: false,
   },
   scale: {
     parent: 'phaser-game',

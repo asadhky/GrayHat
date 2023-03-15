@@ -75,7 +75,7 @@ export default class Player extends Phaser.GameObjects.Sprite {
           key: anim + suffix,
           frames: [
             {
-              frame: 'mario/' + anim + suffix,
+              frame: 'mario/dead' + anim + suffix,
               key: 'atlas',
             },
           ],
@@ -87,7 +87,7 @@ export default class Player extends Phaser.GameObjects.Sprite {
       this.anims.create({
         key: 'climb' + suffix,
         frames: this.anims.generateFrameNames('atlas', {
-          prefix: 'mario/climb' + suffix,
+          prefix: 'goombaWalk' + suffix,
           start: 0,
           end: 1,
         }),
@@ -98,7 +98,7 @@ export default class Player extends Phaser.GameObjects.Sprite {
       this.anims.create({
         key: 'swim' + suffix,
         frames: this.anims.generateFrameNames('atlas', {
-          prefix: 'mario/swim' + suffix,
+          prefix: 'goombaWalk' + suffix,
           start: 1,
           end: 5,
         }),
@@ -133,7 +133,7 @@ export default class Player extends Phaser.GameObjects.Sprite {
 
     this.anims.create({
       key: 'dead',
-      frames: [{ frame: 'mario/dead', key: 'atlas' }],
+      frames: [{ frame: 'goombaWalk', key: 'atlas' }],
       frameRate: 1,
       repeat: -1,
     })
@@ -142,7 +142,7 @@ export default class Player extends Phaser.GameObjects.Sprite {
     this.anims.create({
       key: 'fire',
       frames: this.anims.generateFrameNames('atlas', {
-        prefix: 'mario/walkFire',
+        prefix: 'goombaWalk',
         start: 1,
         end: 1,
       }),
@@ -167,7 +167,7 @@ export default class Player extends Phaser.GameObjects.Sprite {
   die() {
     this.dead = true
     this.scene.sound.stopAll()
-    this.scene.sound.playAudioSprite('sfx', 'smb_mariodie')
+    this.scene.sound.playAudioSprite('sfx', 'smb_world_clear')
     this.body.checkCollision.none = true
     this.body.setAcceleration(0, 0).setVelocity(0, -200)
     this.anims.play('dead')
